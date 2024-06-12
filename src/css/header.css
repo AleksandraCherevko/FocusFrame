@@ -1,21 +1,29 @@
 .header {
-  padding: 20px 0;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
-
+.container {
+}
+.nav {
+}
+.social-icon {
+}
 .nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  display: none;
 }
-
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.nav-list-item {
 }
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.nav-item-link {
+}
+.signup-btn {
+  display: none;
+}
+.camera-icon {
+}
+.mob-menu-btn {
+  background-color: transparent;
+  border: none;
+}
+.burger-icon {
+  fill: white;
 }
