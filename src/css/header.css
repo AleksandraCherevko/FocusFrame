@@ -1,10 +1,17 @@
 .header {
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.container {
+.header-nav-wrap {
+  padding: 17px 15px 17px 15px;
+  display: flex;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
 }
 .nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 .social-icon {
 }
@@ -19,8 +26,14 @@
   display: none;
 }
 .camera-icon {
+  fill: #bea69e66;
+}
+.camera-link {
+  background-color: #1d1d1d;
+  border-radius: 50%;
 }
 .mob-menu-btn {
+  margin-left: 14px;
   background-color: transparent;
   border: none;
 }
